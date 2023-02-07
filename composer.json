@@ -1,0 +1,17 @@
+{
+    "name": "try-again-later/php-jit",
+    "type": "project",
+    "autoload": {
+        "psr-4": {
+            "TryAgainLater\\PhpJit\\": "src/"
+        }
+    },
+    "autoload-dev": {
+        "psr-4": {
+            "TryAgainLater\\PhpJit\\Tests\\": "tests/"
+        }
+    },
+    "require-dev": {
+        "phpbench/phpbench": "^1.2"
+    }
+}
